@@ -1,202 +1,202 @@
-CustomerID,Name,Region,JoinDate
-1000,Robert Gomez,West,2/25/2024
-1001,John Silva,East,12/1/2020
-1002,Mark Marshall,Central,8/8/2020
-1003,David Brennan,North,5/21/2020
-1004,Kerry Collins,North,9/12/2023
-1005,Jessica Mora,South,8/5/2021
-1006,Hannah Ray,West,7/3/2021
-1007,David Kim,West,5/20/2020
-1008,William Ramirez,EAST,9/15/2023
-1009,Zachary Bell Jr.,East,4/20/2023
-1010,Mike Davis,East,3/23/2022
-1011,Amanda Myers,West,9/5/2021
-1012,Tara Miller,North,8/10/2020
-1013,Alyssa Morgan,North,7/22/2022
-1014,Cindy Woods,East,4/2/2024
-1015,Jennifer Rodgers,North,2/12/2023
-1016,Andrea Roberts,EAST,5/16/2021
-1017,Brittney Burnett,North,7/3/2020
-1018,Edwin Garrison,south-west,8/31/2020
-1019,Michelle Torres,Central,11/18/2020
-1020,Michelle Brewer,East,7/14/2021
-1021,Aaron Burnett,South,2/13/2024
-1022,Austin Gutierrez,EAST,11/25/2021
-1023,Dustin Medina,east,6/14/2021
-1024,Andres Avila,Central,9/19/2022
-1025,Garrett Lewis,South,8/4/2023
-1026,Gary Walls,North,10/5/2023
-1027,Anthony Schroeder,east,10/4/2020
-1028,Haley Wagner,West,11/3/2023
-1029,Gina Powers,West,10/26/2022
-1030,Alice Robinson,EAST,8/6/2021
-1031,Jessica Frazier,West,10/20/2021
-1032,Terri Long,east,10/23/2022
-1033,Paul Perkins,east,3/16/2022
-1034,Heather Smith,Central,9/16/2022
-1035,Lorraine Rodriguez,East,9/26/2022
-1036,Robert Bishop,south-west,9/14/2020
-1037,Lisa Sanders,West,6/3/2020
-1038,Jason Ford,EAST,10/9/2023
-1039,Brandy Good,West,5/21/2023
-1040,Angel Lee,Central,4/8/2022
-1041,David Beltran,east,1/18/2021
-1042,Christopher Dodson,North,10/30/2023
-1043,Eric Pena,West,6/30/2022
-1044,Anita Huerta,East,4/8/2022
-1045,Dr. Susan Bailey,North,10/2/2020
-1046,Tyler Colon,Central,3/3/2021
-1047,Ashley Pearson,West,10/4/2020
-1048,Dr. Donald Proctor,North,3/17/2024
-1049,Rebecca Jordan,West,10/8/2022
-1050,Jeffrey Mclaughlin,EAST,3/28/2022
-1051,Amy Nguyen,Central,2/13/2024
-1052,Brandon Hinton,south-west,11/10/2022
-1053,Benjamin Cline,east,1/25/2022
-1054,Laura Mcdonald,South,12/3/2022
-1055,William Benitez,east,11/4/2020
-1056,Kristina Wilson,east,5/15/2023
-1057,Kathy Hall,North,10/27/2023
-1058,Steven Jackson,Central,6/26/2020
-1059,Steve Massey,West,8/6/2020
-1060,Mr. Christopher Thompson,South,4/10/2023
-1061,Taylor Kaufman,North,7/23/2021
-1062,Ashley Harmon,South,2/13/2024
-1063,Howard Case,south-west,2/15/2021
-1064,Joshua Cline,EAST,2/19/2024
-1065,Daniel Adams,Central,7/2/2023
-1066,Derrick Myers,North,4/6/2022
-1067,Lawrence Pearson,east,4/29/2023
-1068,Melissa Gutierrez,East,12/25/2023
-1069,Virginia Warren,North,8/24/2023
-1070,Brittany Johnson,East,6/4/2021
-1071,Christopher Frost,east,8/21/2020
-1072,Shannon Schmitt,EAST,8/23/2022
-1073,Matthew Clark,Central,8/21/2023
-1074,Alyssa Evans,West,10/27/2021
-1075,Joseph Chavez,North,1/1/2023
-1076,Glenn Shelton,east,5/1/2024
-1077,Amy Espinoza,North,5/29/2021
-1078,Danielle Fuller,south-west,12/8/2023
-1079,Zachary Thompson MD,EAST,9/5/2022
-1080,Thomas Parker,south-west,2/28/2023
-1081,Ryan White,South,9/4/2020
-1082,Connor Martin,Central,1/5/2023
-1083,Jacqueline Bishop,South,6/5/2020
-1084,Martha Mccall,North,5/31/2022
-1085,Steven Wright,Central,8/22/2021
-1086,Robert Rodriguez,EAST,3/1/2023
-1087,Carla Tran,EAST,7/22/2020
-1088,Lindsay Torres,east,12/30/2021
-1089,Matthew Hernandez,North,4/12/2023
-1090,Nicholas Dunlap,South,10/11/2020
-1091,Brianna Thomas,south-west,5/23/2023
-1092,Timothy Hill,West,9/7/2023
-1093,Christian Medina,East,2/4/2023
-1094,Robert Jones,West,11/18/2023
-1095,Dr. Jason Scott,South,4/7/2021
-1096,Patricia Rogers,South,1/10/2024
-1097,Laura Jones,EAST,12/7/2023
-1098,Jeffrey Maxwell,West,1/27/2022
-1099,Lori Howard,EAST,2/27/2021
-1100,Michael Simon,EAST,12/27/2020
-1101,Ryan Martin,south-west,11/14/2020
-1102,Robert Hansen,Central,11/19/2022
-1103,Megan Chandler,East,6/25/2023
-1104,David Herrera,West,4/1/2021
-1105,Taylor Clarke,Central,3/11/2023
-1106,Jennifer Ewing,east,5/16/2023
-1107,Emily Hoffman,West,6/9/2023
-1108,Sharon Bautista,Central,7/31/2022
-1109,Aaron Garcia,EAST,7/31/2023
-1110,Melissa Grimes,South,3/14/2024
-1111,Ronald Chavez,south-west,6/24/2021
-1112,Joseph Flores,East,4/3/2021
-1113,Louis Jones,Central,7/4/2021
-1114,Grace Price,South,3/25/2022
-1115,Gina Banks,West,9/16/2023
-1116,Melissa Rivera,Central,10/25/2021
-1117,Amanda Lang,North,4/14/2024
-1118,Briana Alvarado,South,3/18/2022
-1119,Cameron Hernandez,east,8/8/2022
-1120,Daniel Meyer,South,3/15/2024
-1121,Stephanie Garrison,East,8/21/2020
-1122,Christopher Martinez,east,10/7/2021
-1123,Colleen Greene,south-west,8/21/2022
-1124,Megan Novak,East,12/19/2022
-1125,Debbie Andrews,West,5/22/2021
-1126,Lee Luna,east,1/19/2021
-1127,George Edwards,Central,5/12/2023
-1128,Vincent Day,North,7/3/2022
-1129,Karina Jones,East,11/5/2023
-1130,Mary Sandoval,North,10/6/2020
-1131,Mark Gomez,West,6/11/2020
-1132,Scott Winters,West,9/20/2022
-1133,Victor Wagner,south-west,6/12/2021
-1134,Joseph Aguilar,West,12/5/2023
-1135,Christopher Chen,South,9/10/2023
-1136,Scott Hernandez,South,2/9/2024
-1137,Jessica Harmon,south-west,11/5/2022
-1138,Bonnie Stewart,South,4/19/2022
-1139,Heather Olson,Central,4/20/2021
-1140,Carla Flores,EAST,9/30/2020
-1141,David Palmer,North,9/16/2022
-1142,Marvin Hamilton,North,4/23/2022
-1143,Miss Chelsea Castro DDS,Central,2/23/2021
-1144,Brian Browning,EAST,5/3/2023
-1145,Stephanie Powell,east,2/3/2023
-1146,Jonathan Andrade,south-west,6/7/2020
-1147,William Palmer,south-west,8/14/2023
-1148,Dean Allison,West,6/23/2021
-1149,Jordan Elliott,North,5/13/2020
-1150,Bobby Hunter,North,12/6/2020
-1151,Sabrina Lester,West,7/16/2022
-1152,Thomas Garcia,east,9/14/2022
-1153,Michelle Martinez,East,7/31/2023
-1154,Edward Castillo,North,10/1/2020
-1155,Rachel Goodman,North,4/10/2023
-1156,Dennis Acevedo,East,6/18/2023
-1157,Cheryl Wu,West,12/10/2021
-1158,Kelly Gallagher,East,3/2/2024
-1159,Kelli Smith,North,1/28/2022
-1160,Phillip Soto,West,4/21/2023
-1161,David Ellis,East,1/2/2023
-1162,Deborah Rice,east,1/14/2022
-1163,Elizabeth Vaughn,West,5/1/2023
-1164,William Ramsey,North,5/4/2023
-1165,Richard Burnett,Central,7/24/2022
-1166,David Mccullough,south-west,12/15/2021
-1167,Terry Frederick,North,12/20/2021
-1168,Denise Gonzales,South,5/2/2022
-1169,Michael Edwards,south-west,9/26/2023
-1170,Eric Davis,North,10/15/2023
-1171,Ronald Marquez,south-west,4/21/2024
-1172,Eric Barr,EAST,2/1/2023
-1173,David King MD,North,9/14/2022
-1174,Deborah Saunders,West,12/25/2021
-1175,Teresa Lopez,West,10/20/2021
-1176,Ashley Williams,EAST,11/24/2021
-1177,Katherine West,east,11/1/2020
-1178,Katherine Kerr,EAST,11/13/2020
-1179,Desiree Miller,EAST,12/21/2021
-1180,Jennifer Smith,south-west,10/3/2020
-1181,Tiffany Smith,East,4/7/2024
-1182,James Gray,West,7/24/2020
-1183,Kenneth Graves,East,5/8/2020
-1184,Brittney Chen,EAST,7/20/2023
-1185,Cameron Levine,east,7/26/2021
-1186,Timothy Williams,West,9/28/2021
-1187,Kayla Solomon,North,6/10/2022
-1188,Ashley Todd,North,9/4/2023
-1189,Jennifer Farrell,North,11/18/2022
-1190,Elizabeth Robinson,south-west,12/27/2023
-1191,Kyle Smith Jr.,South,10/31/2023
-1192,Gregory Medina,EAST,6/6/2020
-1193,Nancy King,South,5/23/2022
-1194,Casey Brown,Central,2/9/2024
-1195,Michael Lee,south-west,8/22/2023
-1196,Dr. Elizabeth Johnston DDS,North,2/9/2022
-1197,William Wilson,West,4/4/2023
-1198,Chris Allen,south-west,10/11/2022
-1199,James Cooley,West,7/23/2020
-1005,Jessica Mora,South,8/5/2021
+CustomerID,Name,Region,JoinDate,LoyaltyPoints,PreferredContactMethod
+1000,Robert Gomez,West,2/25/2024,2168,SMS
+1001,John Silva,East,12/1/2020,4921,SMS
+1002,Mark Marshall,Central,8/8/2020,1340,Phone
+1003,David Brennan,North,5/21/2020,206,Email
+1004,Kerry Collins,North,9/12/2023,4663,Phone
+1005,Jessica Mora,South,8/5/2021,1517,SMS
+1006,Hannah Ray,West,7/3/2021,962,Email
+1007,David Kim,West,5/20/2020,4124,SMS
+1008,William Ramirez,EAST,9/15/2023,86,Email
+1009,Zachary Bell Jr.,East,4/20/2023,1055,Email
+1010,Mike Davis,East,3/23/2022,3406,Email
+1011,Amanda Myers,West,9/5/2021,4592,App Notification
+1012,Tara Miller,North,8/10/2020,554,SMS
+1013,Alyssa Morgan,North,7/22/2022,3674,Phone
+1014,Cindy Woods,East,4/2/2024,2222,Email
+1015,Jennifer Rodgers,North,2/12/2023,2876,SMS
+1016,Andrea Roberts,EAST,5/16/2021,4313,Phone
+1017,Brittney Burnett,North,7/3/2020,2223,Phone
+1018,Edwin Garrison,south-west,8/31/2020,732,App Notification
+1019,Michelle Torres,Central,11/18/2020,4604,SMS
+1020,Michelle Brewer,East,7/14/2021,4920,Phone
+1021,Aaron Burnett,South,2/13/2024,674,Phone
+1022,Austin Gutierrez,EAST,11/25/2021,3412,SMS
+1023,Dustin Medina,east,6/14/2021,2616,Phone
+1024,Andres Avila,Central,9/19/2022,2978,Email
+1025,Garrett Lewis,South,8/4/2023,4520,Phone
+1026,Gary Walls,North,10/5/2023,1551,Phone
+1027,Anthony Schroeder,east,10/4/2020,1127,SMS
+1028,Haley Wagner,West,11/3/2023,538,SMS
+1029,Gina Powers,West,10/26/2022,2345,SMS
+1030,Alice Robinson,EAST,8/6/2021,4516,Phone
+1031,Jessica Frazier,West,10/20/2021,2651,App Notification
+1032,Terri Long,east,10/23/2022,4497,App Notification
+1033,Paul Perkins,east,3/16/2022,3092,SMS
+1034,Heather Smith,Central,9/16/2022,1195,App Notification
+1035,Lorraine Rodriguez,East,9/26/2022,3726,App Notification
+1036,Robert Bishop,south-west,9/14/2020,2830,App Notification
+1037,Lisa Sanders,West,6/3/2020,609,App Notification
+1038,Jason Ford,EAST,10/9/2023,3958,Email
+1039,Brandy Good,West,5/21/2023,1947,Email
+1040,Angel Lee,Central,4/8/2022,3059,App Notification
+1041,David Beltran,east,1/18/2021,66,SMS
+1042,Christopher Dodson,North,10/30/2023,2476,Phone
+1043,Eric Pena,West,6/30/2022,1043,App Notification
+1044,Anita Huerta,East,4/8/2022,3210,Phone
+1045,Dr. Susan Bailey,North,10/2/2020,4191,App Notification
+1046,Tyler Colon,Central,3/3/2021,1491,Email
+1047,Ashley Pearson,West,10/4/2020,3289,App Notification
+1048,Dr. Donald Proctor,North,3/17/2024,1513,Email
+1049,Rebecca Jordan,West,10/8/2022,572,App Notification
+1050,Jeffrey Mclaughlin,EAST,3/28/2022,44,App Notification
+1051,Amy Nguyen,Central,2/13/2024,1397,Phone
+1052,Brandon Hinton,south-west,11/10/2022,1091,Phone
+1053,Benjamin Cline,east,1/25/2022,2508,Email
+1054,Laura Mcdonald,South,12/3/2022,2487,SMS
+1055,William Benitez,east,11/4/2020,2356,Email
+1056,Kristina Wilson,east,5/15/2023,3338,SMS
+1057,Kathy Hall,North,10/27/2023,705,Phone
+1058,Steven Jackson,Central,6/26/2020,991,Email
+1059,Steve Massey,West,8/6/2020,429,Email
+1060,Mr. Christopher Thompson,South,4/10/2023,4240,SMS
+1061,Taylor Kaufman,North,7/23/2021,4697,App Notification
+1062,Ashley Harmon,South,2/13/2024,4717,Phone
+1063,Howard Case,south-west,2/15/2021,559,SMS
+1064,Joshua Cline,EAST,2/19/2024,794,SMS
+1065,Daniel Adams,Central,7/2/2023,585,Phone
+1066,Derrick Myers,North,4/6/2022,2956,Email
+1067,Lawrence Pearson,east,4/29/2023,1809,Phone
+1068,Melissa Gutierrez,East,12/25/2023,826,App Notification
+1069,Virginia Warren,North,8/24/2023,1753,Email
+1070,Brittany Johnson,East,6/4/2021,3234,Email
+1071,Christopher Frost,east,8/21/2020,4693,Email
+1072,Shannon Schmitt,EAST,8/23/2022,4030,Email
+1073,Matthew Clark,Central,8/21/2023,3522,Phone
+1074,Alyssa Evans,West,10/27/2021,1380,App Notification
+1075,Joseph Chavez,North,1/1/2023,4673,App Notification
+1076,Glenn Shelton,east,5/1/2024,2432,Email
+1077,Amy Espinoza,North,5/29/2021,1953,Email
+1078,Danielle Fuller,south-west,12/8/2023,783,Phone
+1079,Zachary Thompson MD,EAST,9/5/2022,2773,SMS
+1080,Thomas Parker,south-west,2/28/2023,2862,App Notification
+1081,Ryan White,South,9/4/2020,1635,Phone
+1082,Connor Martin,Central,1/5/2023,693,App Notification
+1083,Jacqueline Bishop,South,6/5/2020,3602,App Notification
+1084,Martha Mccall,North,5/31/2022,1749,Email
+1085,Steven Wright,Central,8/22/2021,2509,Phone
+1086,Robert Rodriguez,EAST,3/1/2023,2777,Email
+1087,Carla Tran,EAST,7/22/2020,4421,Email
+1088,Lindsay Torres,east,12/30/2021,137,SMS
+1089,Matthew Hernandez,North,4/12/2023,339,Email
+1090,Nicholas Dunlap,South,10/11/2020,1608,Email
+1091,Brianna Thomas,south-west,5/23/2023,4139,Email
+1092,Timothy Hill,West,9/7/2023,2704,SMS
+1093,Christian Medina,East,2/4/2023,2345,Phone
+1094,Robert Jones,West,11/18/2023,4760,App Notification
+1095,Dr. Jason Scott,South,4/7/2021,1316,SMS
+1096,Patricia Rogers,South,1/10/2024,2141,Phone
+1097,Laura Jones,EAST,12/7/2023,3493,App Notification
+1098,Jeffrey Maxwell,West,1/27/2022,2822,SMS
+1099,Lori Howard,EAST,2/27/2021,763,Email
+1100,Michael Simon,EAST,12/27/2020,2938,SMS
+1101,Ryan Martin,south-west,11/14/2020,2697,App Notification
+1102,Robert Hansen,Central,11/19/2022,4472,Phone
+1103,Megan Chandler,East,6/25/2023,1439,SMS
+1104,David Herrera,West,4/1/2021,4090,SMS
+1105,Taylor Clarke,Central,3/11/2023,3112,Email
+1106,Jennifer Ewing,east,5/16/2023,4413,App Notification
+1107,Emily Hoffman,West,6/9/2023,1115,SMS
+1108,Sharon Bautista,Central,7/31/2022,871,App Notification
+1109,Aaron Garcia,EAST,7/31/2023,4488,SMS
+1110,Melissa Grimes,South,3/14/2024,190,Phone
+1111,Ronald Chavez,south-west,6/24/2021,4808,Phone
+1112,Joseph Flores,East,4/3/2021,4293,Email
+1113,Louis Jones,Central,7/4/2021,375,App Notification
+1114,Grace Price,South,3/25/2022,2836,SMS
+1115,Gina Banks,West,9/16/2023,26,App Notification
+1116,Melissa Rivera,Central,10/25/2021,180,App Notification
+1117,Amanda Lang,North,4/14/2024,2526,SMS
+1118,Briana Alvarado,South,3/18/2022,2469,SMS
+1119,Cameron Hernandez,east,8/8/2022,2503,Email
+1120,Daniel Meyer,South,3/15/2024,1820,Phone
+1121,Stephanie Garrison,East,8/21/2020,378,Phone
+1122,Christopher Martinez,east,10/7/2021,1923,SMS
+1123,Colleen Greene,south-west,8/21/2022,413,Phone
+1124,Megan Novak,East,12/19/2022,4972,SMS
+1125,Debbie Andrews,West,5/22/2021,3468,Email
+1126,Lee Luna,east,1/19/2021,4707,Email
+1127,George Edwards,Central,5/12/2023,944,Phone
+1128,Vincent Day,North,7/3/2022,738,App Notification
+1129,Karina Jones,East,11/5/2023,2648,App Notification
+1130,Mary Sandoval,North,10/6/2020,4965,Phone
+1131,Mark Gomez,West,6/11/2020,2656,Email
+1132,Scott Winters,West,9/20/2022,856,Email
+1133,Victor Wagner,south-west,6/12/2021,1766,Phone
+1134,Joseph Aguilar,West,12/5/2023,3326,Phone
+1135,Christopher Chen,South,9/10/2023,4736,App Notification
+1136,Scott Hernandez,South,2/9/2024,32,SMS
+1137,Jessica Harmon,south-west,11/5/2022,4082,SMS
+1138,Bonnie Stewart,South,4/19/2022,157,App Notification
+1139,Heather Olson,Central,4/20/2021,4329,Phone
+1140,Carla Flores,EAST,9/30/2020,1421,Phone
+1141,David Palmer,North,9/16/2022,4635,App Notification
+1142,Marvin Hamilton,North,4/23/2022,4049,Phone
+1143,Miss Chelsea Castro DDS,Central,2/23/2021,944,App Notification
+1144,Brian Browning,EAST,5/3/2023,4867,SMS
+1145,Stephanie Powell,east,2/3/2023,581,SMS
+1146,Jonathan Andrade,south-west,6/7/2020,4756,Phone
+1147,William Palmer,south-west,8/14/2023,449,SMS
+1148,Dean Allison,West,6/23/2021,3926,SMS
+1149,Jordan Elliott,North,5/13/2020,65,Phone
+1150,Bobby Hunter,North,12/6/2020,3215,App Notification
+1151,Sabrina Lester,West,7/16/2022,2066,App Notification
+1152,Thomas Garcia,east,9/14/2022,416,App Notification
+1153,Michelle Martinez,East,7/31/2023,1693,Email
+1154,Edward Castillo,North,10/1/2020,3021,App Notification
+1155,Rachel Goodman,North,4/10/2023,1791,Phone
+1156,Dennis Acevedo,East,6/18/2023,3929,App Notification
+1157,Cheryl Wu,West,12/10/2021,3241,App Notification
+1158,Kelly Gallagher,East,3/2/2024,1642,Phone
+1159,Kelli Smith,North,1/28/2022,1781,App Notification
+1160,Phillip Soto,West,4/21/2023,2694,App Notification
+1161,David Ellis,East,1/2/2023,1545,SMS
+1162,Deborah Rice,east,1/14/2022,2461,Email
+1163,Elizabeth Vaughn,West,5/1/2023,2839,App Notification
+1164,William Ramsey,North,5/4/2023,2631,SMS
+1165,Richard Burnett,Central,7/24/2022,3201,App Notification
+1166,David Mccullough,south-west,12/15/2021,2969,SMS
+1167,Terry Frederick,North,12/20/2021,3929,SMS
+1168,Denise Gonzales,South,5/2/2022,4266,App Notification
+1169,Michael Edwards,south-west,9/26/2023,3610,App Notification
+1170,Eric Davis,North,10/15/2023,1179,App Notification
+1171,Ronald Marquez,south-west,4/21/2024,1428,SMS
+1172,Eric Barr,EAST,2/1/2023,2160,Phone
+1173,David King MD,North,9/14/2022,263,Phone
+1174,Deborah Saunders,West,12/25/2021,579,Email
+1175,Teresa Lopez,West,10/20/2021,4249,Phone
+1176,Ashley Williams,EAST,11/24/2021,1096,SMS
+1177,Katherine West,east,11/1/2020,1642,Email
+1178,Katherine Kerr,EAST,11/13/2020,3618,Email
+1179,Desiree Miller,EAST,12/21/2021,205,Email
+1180,Jennifer Smith,south-west,10/3/2020,3703,SMS
+1181,Tiffany Smith,East,4/7/2024,3711,Email
+1182,James Gray,West,7/24/2020,1684,Phone
+1183,Kenneth Graves,East,5/8/2020,450,App Notification
+1184,Brittney Chen,EAST,7/20/2023,2306,App Notification
+1185,Cameron Levine,east,7/26/2021,1361,SMS
+1186,Timothy Williams,West,9/28/2021,1501,Phone
+1187,Kayla Solomon,North,6/10/2022,2559,App Notification
+1188,Ashley Todd,North,9/4/2023,1978,Phone
+1189,Jennifer Farrell,North,11/18/2022,713,App Notification
+1190,Elizabeth Robinson,south-west,12/27/2023,4070,Email
+1191,Kyle Smith Jr.,South,10/31/2023,414,App Notification
+1192,Gregory Medina,EAST,6/6/2020,3847,Email
+1193,Nancy King,South,5/23/2022,832,SMS
+1194,Casey Brown,Central,2/9/2024,4695,App Notification
+1195,Michael Lee,south-west,8/22/2023,2037,Phone
+1196,Dr. Elizabeth Johnston DDS,North,2/9/2022,3425,Phone
+1197,William Wilson,West,4/4/2023,2494,Email
+1198,Chris Allen,south-west,10/11/2022,3903,Email
+1199,James Cooley,West,7/23/2020,4185,App Notification
+1005,Jessica Mora,South,8/5/2021,802,Phone
