@@ -15,38 +15,55 @@ DB_PATH = DW_DIR.joinpath("smart_sales.db")
 PREPARED_DATA_DIR = pathlib.Path("data").joinpath("prepared")
 
 def create_schema(cursor: sqlite3.Cursor) -> None:
-    """Create tables in the data warehouse if they don't exist."""
+    """Drop and recreate tables in the data warehouse."""
+
+    # Drop tables to force updated schema (especially during dev)
+    cursor.execute("DROP TABLE IF EXISTS sale")
+    cursor.execute("DROP TABLE IF EXISTS customer")
+    cursor.execute("DROP TABLE IF EXISTS product")
+
+    # Now recreate all tables with updated columns
     cursor.execute("""
-        CREATE TABLE IF NOT EXISTS customer (
+        CREATE TABLE customer (
             customer_id INTEGER PRIMARY KEY,
             name TEXT,
             region TEXT,
-            join_date TEXT
+            join_date TEXT,
+            LoyaltyPoints INTEGER,
+            preferred_contact_method TEXT
         )
     """)
-    
+
     cursor.execute("""
-        CREATE TABLE IF NOT EXISTS product (
+        CREATE TABLE product (
             product_id INTEGER PRIMARY KEY,
             product_name TEXT,
-            category TEXT
+            category TEXT,
+            unit_price REAL,
+            stock_quantity INTEGER,
+            supplier TEXT
         )
     """)
-    
+
     cursor.execute("""
-        CREATE TABLE IF NOT EXISTS sale (
+        CREATE TABLE sale (
             sale_id INTEGER PRIMARY KEY,
             customer_id INTEGER,
             product_id INTEGER,
             sale_amount REAL,
             sale_date TEXT,
+            discount_percent REAL,
+            payment_type TEXT,
+            store_id TEXT,
+            campaign_id TEXT, --
             FOREIGN KEY (customer_id) REFERENCES customer (customer_id),
             FOREIGN KEY (product_id) REFERENCES product (product_id)
         )
     """)
 
+
 def delete_existing_records(cursor: sqlite3.Cursor) -> None:
-    """Delete all existing records from the customer, product, and sale tables."""
+    """Delete all existing records and reset primary keys."""
     cursor.execute("DELETE FROM customer")
     cursor.execute("DELETE FROM product")
     cursor.execute("DELETE FROM sale")
@@ -90,8 +107,49 @@ def load_data_to_db() -> None:
 
         # Load prepared data using pandas
         customers_df = pd.read_csv(PREPARED_DATA_DIR.joinpath("customers_data_prepared.csv"))
+        customers_df = customers_df.drop(columns=["Unnamed: 0"], errors="ignore")
+        customers_df = customers_df.rename(columns={
+            "CustomerID": "customer_id",
+            "Name": "name",
+            "Region": "region",
+            "JoinDate": "join_date",
+            "LoyaltyPoints": "LoyaltyPoints",
+            "preferred_contact_method": "preferred_contact_method"
+        })
+
+# ✅ Drop duplicate primary keys based on customer_id
+        customers_df = customers_df.drop_duplicates(subset="customer_id")
+
+        print("Customers loaded:", len(customers_df), "rows")
+        print("Duplicate customer IDs:", customers_df['customer_id'].duplicated().sum())
+
+
         products_df = pd.read_csv(PREPARED_DATA_DIR.joinpath("products_data_prepared.csv"))
+        products_df = products_df.drop(columns=["Unnamed: 0"], errors="ignore")
+        print("Products loaded:", len(products_df), "rows")
+
         sales_df = pd.read_csv(PREPARED_DATA_DIR.joinpath("sales_data_prepared.csv"))
+        sales_df = sales_df.drop(columns=["Unnamed: 0"], errors="ignore")
+        sales_df = sales_df.rename(columns={
+            "TransactionID": "sale_id",  
+            "CustomerID": "customer_id",
+            "ProductID": "product_id",
+            "SaleAmount": "sale_amount",
+            "SaleDate": "sale_date",
+            "StoreID": "store_id",
+            "DiscountPercent": "discount_percent",
+            "CampaignID": "campaign_id",
+            "PaymentType": "payment_type",
+        })
+
+        # Optional: drop duplicates if needed
+        sales_df = sales_df.drop_duplicates(subset="sale_id")
+
+        print("Sales loaded:", len(sales_df), "rows")
+        print("Duplicate sale IDs:", sales_df['sale_id'].duplicated().sum())
+
+
+
 
         print("CSV files loaded.")
 

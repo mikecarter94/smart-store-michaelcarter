@@ -1,4 +1,4 @@
-,TransactionID,SaleDate,CustomerID,ProductID,StoreID,CampaignID,SaleAmount,DiscountPercent,PaymentType
+,TransactionID,sale_date,customer_id,product_id,store_id,CampaignID,sale_amount,DiscountPercent,PaymentType
 0,1,5/4/2025,1034,2059,402,0,2048.2,15.19,Mobile Payment
 1,2,5/4/2025,1066,2048,403,1,321.87,5.27,Gift Card
 2,3,5/4/2025,1116,2041,403,3,3216.84,29.92,Credit Card

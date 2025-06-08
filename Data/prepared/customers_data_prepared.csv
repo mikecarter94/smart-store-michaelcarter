@@ -1,4 +1,4 @@
-,CustomerID,Name,Region,JoinDate,LoyaltyPoints,PreferredContactMethod
+,customer_id,name,region,join_date,LoyaltyPoints,preferred_contact_method
 0,1000,Robert Gomez,West,2/25/2024,2168,SMS
 1,1001,John Silva,East,12/1/2020,4921,SMS
 2,1002,Mark Marshall,Central,8/8/2020,1340,Phone
