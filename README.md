@@ -125,3 +125,25 @@ They are mostly interesting from a state-of-the-art perspective.
 ## OPTIONAL: Share Feedback
 
 Feel free to ask questions in the [GitHub Discussions](https://github.com/denisecase/pro-analytics-01/discussions) or raise a [GitHub Issue](https://github.com/denisecase/pro-analytics-01/issues) if you have suggestions or need additional clarification. 
+
+# Sales Insights Dashboard – README
+
+## SQL Queries
+- `Top Customers`: Shows total sales per customer using `sale` and `customer` tables.
+- `Sales Trend`: Aggregates sales by `sale_date` to track trends over time.
+
+## Dashboard Design
+- Used a bar chart for Top Customers to highlight biggest spenders.
+- Used a line chart for Sales Trend to display time-based performance.
+- Added a category slicer to allow interactive filtering of visuals.
+
+## Screenshots
+
+### 1. Power BI Model View
+![Model View](images/table_relationships.png)
+
+### 2. Query Results
+![Query Results](images/final_dashboard.png)
+
+### 3. Final Dashboard
+![Dashboard](images/final_dashboard.png)
