@@ -170,3 +170,40 @@ def load_data_to_db() -> None:
             print("Connection closed.")
 if __name__ == "__main__":
     load_data_to_db()
+import sqlite3
+import pandas as pd
+
+# Connect to your database
+conn = sqlite3.connect('smart_sales.db')
+
+# Optional: Preview tables
+print(pd.read_sql("SELECT name FROM sqlite_master WHERE type='table';", conn))
+
+# Step 1: Write and execute SQL query to join product and sales
+query = """
+SELECT 
+    s.sale_date,
+    s.sale_amount,
+    p.category
+FROM sales s
+JOIN product p ON s.product_id = p.product_id
+WHERE p.category = 'Electronics'
+"""
+
+# Step 2: Load data into DataFrame
+df = pd.read_sql(query, conn, parse_dates=['sale_date'])
+
+# Step 3: Filter for the month of May
+df['month'] = df['sale_date'].dt.month
+may_electronics = df[df['month'] == 5]
+
+# Step 4: Perform OLAP-style aggregations
+average_sale = may_electronics['sale_amount'].mean()
+total_sale = may_electronics['sale_amount'].sum()
+count = may_electronics['sale_amount'].count()
+
+# Step 5: Output the results
+print(f"Total Sales in May (Electronics): ${total_sale:.2f}")
+print(f"Average Sale Amount in May (Electronics): ${average_sale:.2f}")
+print(f"Number of Transactions: {count}")
+
