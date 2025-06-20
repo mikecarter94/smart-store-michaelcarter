@@ -241,3 +241,80 @@ The results indicate that **electronics performed exceptionally well in May**, w
 ---
 
 📌 _For running instructions, refer to the main section of this repo or the script header in `scripts/olap_analysis.py`._
+
+## 🔍 Analysis: Most Common Payment Type (May)
+
+### 🎯 Goal
+Identify the most common payment type used in the month of May.
+
+### 🗃️ Data Source
+- `sale` table from `smart_sales.db`
+- Columns used: `sale_date`, `payment_type`
+
+### ⚙️ Tools Used
+- **Python** for query and processing
+- **pandas** for value counts
+- **matplotlib** for optional bar chart
+- **Power BI** for visualization (CSV exported)
+
+### 📊 Workflow
+- Filtered sales for May using SQLite date query
+- Counted `payment_type` occurrences
+- Visualized results in both matplotlib and Power BI
+
+### 🧾 Results
+The most common payment type in May was: **`<insert type>`**  
+This suggests customers prefer this method and should be prioritized for support, speed, and reliability.
+
+### ⚠️ Challenges
+- Ensured correct month extraction using `strftime('%m', sale_date)`
+- Verified table and column names after early query testing
+
+## 🔍 Analysis: Most Common Payment Type (May)
+
+### 🎯 Goal
+Identify the most common payment type used in the month of May.
+
+### 🗃️ Data Source
+- **Database**: `smart_sales.db`
+- **Table**: `sale`
+- **Columns used**:
+  - `sale_date` (format: `M/D/YYYY`)
+  - `payment_type`
+
+### ⚙️ Tools Used
+- **Python** for querying and analysis
+- **pandas** for frequency count
+- **matplotlib** for bar chart visualization
+- **Power BI** (optional): CSV can be exported for dashboarding
+
+### 📊 Workflow
+- Connected to the SQLite database using Python
+- Queried all sales where `sale_date LIKE '5/%'` to isolate May transactions
+- Counted the frequency of each `payment_type`
+- Visualized results with a bar chart
+- Chart saved as PNG for reporting and dashboarding
+
+### 📈 Results
+
+The most common payment type in May was: **Gift Card**
+
+| Payment Type    | Count |
+|------------------|--------|
+| Gift Card        | 7      |
+| Cash             | 6      |
+| Mobile Payment   | 4      |
+| Credit Card      | 3      |
+
+![Payment Type Chart](charts/payment_type_may.png)
+
+### ✅ Suggested Business Action
+- Enhance Gift Card availability and promotion, especially in high-traffic May sales
+- Ensure seamless processing for mobile and credit card transactions to reduce friction
+- Consider seasonal campaigns focused on gift card usage
+
+### ⚠️ Challenges
+| Issue | Resolution |
+|-------|------------|
+| ❌ Empty query results | Adjusted query from `strftime('%m', sale_date)` to `LIKE '5/%'` due to `M/D/YYYY` format |
+| ❌ Chart not saving | Used `plt.savefig()` with fallback to `charts/` folder |
