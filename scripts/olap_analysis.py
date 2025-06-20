@@ -2,7 +2,7 @@ import sqlite3
 import pandas as pd
 
 # Connect to your database
-conn = sqlite3.connect('smart_sales.db')
+conn = sqlite3.connect(r'C:\Repos\smart-store-michaelcarter\Data\dw\smart_sales.db')
 
 # Optional: Preview tables
 print(pd.read_sql("SELECT name FROM sqlite_master WHERE type='table';", conn))
@@ -13,7 +13,7 @@ SELECT
     s.sale_date,
     s.sale_amount,
     p.category
-FROM sales s
+FROM sale s
 JOIN product p ON s.product_id = p.product_id
 WHERE p.category = 'Electronics'
 """

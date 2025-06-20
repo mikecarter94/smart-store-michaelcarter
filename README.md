@@ -147,3 +147,97 @@ Feel free to ask questions in the [GitHub Discussions](https://github.com/denise
 
 ### 3. Final Dashboard
 ![Dashboard](images/final_dashboard.png)
+
+## OLAP Sales Analysis
+
+This script connects to `smart_sales.db` and performs:
+- Revenue comparison by product category (bar chart)
+- Monthly sales trend (line chart)
+- Sales by product and region (pivot table)
+
+### To Run:
+1. Activate virtual environment
+2. Install dependencies: `pip install pandas matplotlib`
+3. Run: `python olap_analysis.py`
+# 📊 OLAP Analysis of Smart Sales Data
+
+## 🎯 Section 1: The Business Goal
+
+**Goal**: Identify the **average sale amount** for **electronic products** sold in the **month of May**.
+
+This goal helps the business understand seasonal performance for high-value product categories and optimize marketing, inventory, and pricing strategies accordingly.
+
+---
+
+## 📁 Section 2: Data Source
+
+The analysis uses a structured **data warehouse** in the form of a SQLite database file named `smart_sales.db`, located in the `/Data/dw/` directory. The key tables and columns used were:
+
+- **`sale` table**  
+  - `sale_date`: used to extract monthly trends  
+  - `sale_amount`: used for revenue calculations  
+  - `product_id`: used to join with product data
+
+- **`product` table**  
+  - `product_id`: primary key for joining  
+  - `category`: used to filter by `'Electronics'`
+
+---
+
+## 🛠️ Section 3: Tools
+
+- **Python** with:
+  - `pandas` for data manipulation and pivot tables
+  - `matplotlib` for visualizations (bar and line charts)
+- **SQLite** as the data storage backend
+- **Visual Studio Code (VS Code)** for development and script execution
+
+These tools were selected for their efficiency, reproducibility, and suitability for OLAP-style exploration in a script-based environment.
+
+---
+
+## 🔄 Section 4: Workflow & Logic
+
+- **Descriptive Dimensions**: `category`, `product_id`, `sale_date (month)`
+- **Numeric Metric**: `sale_amount`
+- **Aggregations**:
+  - `SUM(sale_amount)` to calculate total revenue
+  - `AVG(sale_amount)` for average sales by filter
+- **Slicing**: Focused on `'Electronics'` category
+- **Dicing**: By product and region (via pivot table)
+- **Drilldown**: From year ➡️ month (using `sale_date`)
+
+> _Note: If using a graphical tool like Power BI or Tableau, include screenshots below._
+
+---
+
+## 📈 Section 5: Results
+
+### 💡 Key Insights:
+- **Bar Chart**: Total revenue by product category
+- **Line Chart**: Monthly sales trends
+- **Pivot Table**: Sales aggregated by product and region
+
+The results indicate that **electronics performed exceptionally well in May**, with a high average sale amount reflecting strong demand for higher-value products.
+
+---
+
+## 🚀 Section 6: Suggested Business Action
+
+- Boost marketing efforts for electronics during Q2, especially May.
+- Investigate regions with below-average performance using the pivot breakdown.
+- Optimize inventory levels around seasonal peaks identified in the sales trend.
+
+---
+
+## 🧩 Section 7: Challenges
+
+| Issue | Resolution |
+|-------|------------|
+| ❌ `no such table: sales` | Verified correct table names using `sqlite_master`, changed `sales` to `sale` |
+| ❌ Charts not displaying | Added `plt.show()` and confirmed output through VS Code |
+| ❌ DB connection path error | Updated path to: `C:/Repos/smart-store-michaelcarter/Data/dw/smart_sales.db` |
+
+---
+
+📌 _For running instructions, refer to the main section of this repo or the script header in `scripts/olap_analysis.py`._
